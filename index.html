@@ -1,239 +1,208 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz-box</title>
+  <title>quiz-box</title>
 </head>
+
 <body>
   <div class="wrapper">
+    <div class="wrapper__content">
+      <header class="header">
+        <a href="#" class="logo">
+          <img src="" alt="company logo" class="logo_pic">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list"><a href="#" class="menu__link">Главная</a></li>
+            <li class="menu__list"><a href="#" class="menu__link">Игры</a></li>
+            <li class="menu__list"><a href="#" class="menu__link">Отзывы</a></li>
+          </ul>
+        </nav>
+        <address class="contacts">
+          <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+          <div class="contacts__info">График работы</div>
+        </address>
+      </header>
 
-    <header class="header">
-    <a href="/" class="logo">
-      <img src="#" alt="картинка логотипа" class="logo__pic">
-    </a>
-    <ul class="header-menu">
-      <li class="header-menu__item"> 
-        <a href="#" class="header-menu__link">Главная</a>
-      </li>
-      <li class="header-menu__item"> 
-        <a href="#" class="header-menu__link">Игры</a>
-      </li>
-      <li class="header-menu__item"> 
-        <a href="#" class="header-menu__link">Отзывы</a>
-      </li>
-    </ul>
-    <address class="contacts">
-      <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-      <div class="contacts__workhours">График работы</div>
-    </address>
-    </header>
+      <div class="maincontent">
+        <section class="hello">
+          <h1 class="hello__title">Интеллектуальный вечер для шумной компании</h1>
+          <div class="hello__text">Игры на любой вкус</div>
+          <a href="#" class="button">Подробнее</a>
+        </section>
 
-    <div class="page-content">
-     <main class="main-content">
+        <section class="new-offers">
+          <h2 class="title title--pic">Новинки недели</h2>
+          <ul class="new-offers__list">
+            <li class="new-offers__item">
+              <img src="#" alt="music" class="offers__img">
+              <div class="new-offers__content">
+                <h3 class="new-offers__title">Музыкальная игра</h3>
+                <ul class="new-offers__features">
+                  <li class="new-offers__feature">
+                    <img src="#" alt="clock" class="new-offers__feature-icon">
+                    <div class="new-offers__feature-text">90 минут</div>
+                  </li>
+                  <li class="new-offers_feature">
+                    <img src="#" alt="question-pic" class="new-offers_feature-icon">
+                    <div class="new-offers_feature-text">70 вопросов</div>
+                  </li>
+                </ul>
+                <p class="new-offers__text">
+                  Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового
+                  участия.
+                </p>
+                <a href="#" class="button button--light">смотреть</a>
+              </div>
+              </li>
+              <li class="new-offers__item">
+                <img src="#" alt="назад в 90-е" class="offers__img">
+                <div class="new-offers__content">
+                  <h3 class="new-offers__title">Назад в 90-е</h3>
+                  <ul class="new-offers__features">
+                    <li class="new-offers__feature">
+                      <img src="#" alt="clock" class="new-offers__feature-icon">
+                      <div class="new-offers__feature-text">90 минут</div>
+                    </li>
+                    <li class="new-offers_feature">
+                      <img src="#" alt="question-pic" class="new-offers_feature-icon">
+                      <div class="new-offers_feature-text">70 вопросов</div>
+                    </li>
+                  </ul>
+                  <p class="new-offers__text">
+                    Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового
+                    участия.
+                  </p>
+                  <a href="#" class="button button--light">смотреть</a>
+                </div>
+                </li>
+                <li class="new-offers__item">
+                  <img src="#" alt="IT-викторина" class="offers__img">
+                  <div class="new-offers__content">
+                    <h3 class="new-offers__title">IT-викторина</h3>
+                    <ul class="new-offers__features">
+                      <li class="new-offers__feature">
+                        <img src="#" alt="clock" class="new-offers__feature-icon">
+                        <div class="new-offers__feature-text">90 минут</div>
+                      </li>
+                      <li class="new-offers_feature">
+                        <img src="#" alt="question-pic" class="new-offers_feature-icon">
+                        <div class="new-offers_feature-text">70 вопросов</div>
+                      </li>
+                    </ul>
+                    <p class="new-offers__text">
+                      Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового
+                      участия.
+                    </p>
+                    <a href="#" class="button button--light">смотреть</a>
+                  </div>
+                  </li>
+            </ul>
+        </section>
 
-      <div class="news-and-promo">
-        <h1 class="news-and-promo__title">
-          Интеллектуальный вечер для шумной компании
-        </h1>
-        <p class="news-and-promo__text">
-          Игры на любой вкус
-        </p>
-        <button class="news-and-promo__details">
-          подробнее
-        </button>
+        <section class="past-games">
+          <h2 class="past-games__title">
+            Прошедшие игры
+          </h2>
+         <ul class="past-games__list">
+           <li class="past-games__list-item">
+             <img src="#" alt="картинка на задний фон" class="past-games__list-bkg-pic">
+             <div class="past-games__date">
+               1 января
+              </div>
+              <h3 class="past-games__title">
+                Новогодний квиз
+              </h3>
+              <p class="past-games__details-info">
+                Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!
+              </p>       
+            </li>
+            <li class="past-games__list-item">
+              <img src="#" alt="картинка на задний фон" class="past-games__list-bkg-pic">
+              <div class="past-games__date">
+                8 марта
+               </div>
+               <h3 class="past-games__title">
+                 Весенняя игра
+               </h3>
+               <p class="past-games__details-info">
+                Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!
+               </p>       
+             </li>
+        </ul>
+
+          <div class="pagination">
+            <div class="pagination__info">
+              Страница <span class="pagination__index">1</span> из <span class="pagination__count">7</span>
+            </div>
+            <ul class="pagination__list">
+              <li class="pagination__item">1</li>
+              <li class="pagination__item">2</li>
+              <li class="pagination__item">3</li>
+              <li class="pagination__item">4</li>
+              <li class="pagination__item">5</li>
+              <li class="pagination__item">6</li>
+              <li class="pagination__item">7</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="about">
+          
+          <img src="#" alt="картинка команды" class="about__team-pic">
+          <h2 class="about__title">
+            О нас
+          </h2>
+          <p class="about__text">
+            Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+          </p>
+          <a href="#" class="button button--light">подробнее</a>
+        </section>
       </div>
-
-    <div class="new-to-week">
-      <h2 class="new-to-week__title">
-        Новинки недели
-      </h2>
-      <img src="" alt="картинка new" class="new-to-week__title-pic">
-      <ul class="new-to-week__list">
-        <li class="new-to-week__list-item">
-          <img src="#" alt="картинка music" class="new-to-week__list-item-pic">
-          <h3 class="new-to-week__list-title">
-            Музыкальная игра
-          </h3>
-          <ul class="new-to-week__info">
-            <li class="new-to-week__info-item">
-              <img src="#" alt="картинка часов" class="new-to-week__clock-pic">
-              <p class="new-to-week__info-item-text">
-                90 минут
-              </p>
+        
+      <footer class="footer">
+        <header class="header">
+          <a href="#" class="logo">
+            <img src="" alt="company logo" class="logo_pic">
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list"><a href="#" class="menu__link">Главная</a></li>
+              <li class="menu__list"><a href="#" class="menu__link">Игры</a></li>
+              <li class="menu__list"><a href="#" class="menu__link">Отзывы</a></li>
+            </ul>
+          </nav>
+          <ul class="socials">
+            <li class="socials__item">
+              <a href="#" class="socials__link"></a>
+              <i class="fab fa-telegram"></i>
             </li>
-            <li class="new-to-week__info-item">
-              <img src="#" alt="картинка вопроса" class="new-to-week__question-pic">
-              <p class="new-to-week__info-item-text">
-                70 вопросов
-              </p>
+            <li class="socials__item">
+              <a href="#" class="socials__link"></a>
+              <i class="fab fa-vk"></i>
             </li>
-          </ul>
-          <p class="new-to-week__block-info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <button class="new-to-week__details">
-            смотреть
-          </button>
-        </li>
-        <li class="new-to-week__list-item">
-          <img src="#" alt="картинка Назад в 90-е" class="new-to-week__list-item-pic">
-          <h3 class="new-to-week__list-title">
-            Назад в 90-е
-          </h3>
-          <ul class="new-to-week__info">
-            <li class="new-to-week__info-item">
-              <img src="#" alt="картинка часов" class="new-to-week__clock-pic">
-              <p class="new-to-week__info-item-text">
-                90 минут
-              </p>
+            <li class="socials__item">
+              <a href="#" class="socials__link"></a>
+              <i class="fab fa-facebook"></i>
             </li>
-            <li class="new-to-week__info-item">
-              <img src="#" alt="картинка вопроса" class="new-to-week__question-pic">
-              <p class="new-to-week__info-item-text">
-                70 вопросов
-              </p>
+            <li class="socials__item">
+              <a href="#" class="socials__link"></a>
+              <i class="fab fa-instagram"></i>
             </li>
           </ul>
-          <p class="new-to-week__block-info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <button class="new-to-week__details">
-            смотреть
-          </button>
-        </li>
-        <li class="new-to-week__list-item">
-          <img src="#" alt="картинка IT-викторина" class="new-to-week__list-item-pic">
-          <h3 class="new-to-week__list-title">
-            IT-викторина
-          </h3>
-          <ul class="new-to-week__info">
-            <li class="new-to-week__info-item">
-              <img src="#" alt="картинка часов" class="new-to-week__clock-pic">
-              <p class="new-to-week__info-item-text">
-                90 минут
-              </p>
-            </li>
-            <li class="new-to-week__info-item">
-              <img src="#" alt="картинка вопроса" class="new-to-week__question-pic">
-              <p class="new-to-week__info-item-text">
-                70 вопросов
-              </p>
-            </li>
-          </ul>
-          <p class="new-to-week__block-info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <button class="new-to-week__details">
-            смотреть
-          </button>
-        </li>
-      </ul>
-    </div>
+          <address class="contacts">
+            <div class="contacts__info">Бесплатный звонок по России</div>
+            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+          </address>
+      </footer>
 
-    <div class="past-games">
-      <h2 class="past-games__title">
-        Прошедшие игры
-      </h2>
-     <ul class="past-games__list">
-       <li class="past-games__list-item">
-         <img src="#" alt="картинка на задний фон" class="past-games__list-background-pic">
-         <p class="past-games__date">
-           1 января
-          </p>
-          <h3 class="past-games__title">
-            Новогодний квиз
-          </h3>
-          <p class="past-games__details-info">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          </p>       
-        </li>
-        <li class="past-games__list-item">
-          <img src="#" alt="картинка на задний фон" class="past-games__list-background-pic">
-          <p class="past-games__date">
-            8 марта
-           </p>
-           <h3 class="past-games__title">
-             Весенняя игра
-           </h3>
-           <p class="past-games__details-info">
-             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-           </p>       
-         </li>
-    </ul>
-    </div>
 
-    <div class="paginator">
-      <div class="paginator__dispalay">Страница 1 из 7</div>
-      <ul class="paginator__list">
-        <li class="paginator__item">1</li>
-        <li class="paginator__item">2</li>
-        <li class="paginator__item">3</li>
-        <li class="paginator__item">4</li>
-        <li class="paginator__item">5</li>
-        <li class="paginator__item">6</li>
-        <li class="paginator__item">7</li>
-      </ul>
     </div>
-  </main>
-  </div>
-    <div class="about-us">
-    <img src="#" alt="картинка команды" class="about-us__team-pic">
-    <h2 class="about-us__title">
-      О нас
-    </h2>
-    <p class="about-us__text">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ad vitae asperiores esse nam numquam natus vel maxime aperiam! Ex repellat perspiciatis nobis soluta dolor dolore totam labore voluptatem similique.
-    </p>
-    <button class="about-us__details">
-      подробнее
-    </button>
-    </div>
-
-    <hr>
-
-    <footer class="footer">
-      <a href="/" class="logo">
-        <img src="#" alt="картинка логотипа" class="logo__pic">
-      </a>
-      <ul class="header-menu">
-        <li class="header-menu__item"> 
-          <a href="#" class="header-menu__link">Главная</a>
-        </li>
-        <li class="header-menu__item"> 
-          <a href="#" class="header-menu__link">Игры</a>
-        </li>
-        <li class="header-menu__item"> 
-          <a href="#" class="header-menu__link">Отзывы</a>
-        </li>
-      </ul>
-      <ul class="socials">
-        <li class="socials__item">
-          <a href="#" class="socials__link"></a>
-          <i class="fab fa-telegram"></i>
-        </li>
-        <li class="socials__item">
-          <a href="#" class="socials__link"></a>
-          <i class="fab fa-vk"></i>
-        </li>
-        <li class="socials__item">
-          <a href="#" class="socials__link"></a>
-          <i class="fab fa-facebook"></i>
-        </li>
-        <li class="socials__item">
-          <a href="#" class="socials__link"></a>
-          <i class="fab fa-instagram"></i>
-        </li>
-      </ul>
-      <address class="contacts">
-        <div class="contacts__upper-text">Бесплатный звонок по России</div>
-        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-      </address>
-    </footer>
-      
-      
-                                     
   </div>
 </body>
+
 </html>
