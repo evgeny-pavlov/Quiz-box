@@ -1,0 +1,393 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font:400 1.6rem/1.42 'Lato', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #17191C;
+    color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p  {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+/* img { для картинок в блоках
+    display: block;
+    width: 100%;
+    height: auto;
+} */
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+    
+
+/* header */
+
+.header  {
+    height: 80px;
+    position: relative;
+    margin: 0;
+    margin-top: 2.4rem;
+    margin-bottom: 11.7rem;
+}
+
+.header-content {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+header .logo-pic {
+    display: block;
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    padding: 0;
+    border-top: 0;
+    /* max-width: 170px;
+    max-height: 28px; */
+}
+
+header .menu{
+    position: absolute;
+    top: 1.5em;
+    left: 42.4rem;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6.5rem;
+  }
+  
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link:hover {
+    color: #8F00FF;
+    cursor: pointer;
+}
+
+header .contacts{
+    position: absolute;
+    top: 1.5rem;
+    right: 0;
+}
+
+.contacts__phone {
+    font-size: 2.6rem;
+    font-style: normal;
+  }
+
+.contacts__dropdown-title {
+    font-size: 1.3rem;
+    font-style: normal; 
+    text-decoration: underline;
+    text-align: right;
+    cursor: pointer;
+}
+
+/* <hello> */
+
+.hello {
+    width: 640px;
+    margin-bottom: 19.2rem;
+}
+  
+h1.hello__title {
+    font-size: 6.5rem; 
+    font-weight: bold;
+    line-height: 1.0;
+    margin-bottom: 2.0rem;
+    margin-left: 0.3rem;
+}
+  
+.hello__text {
+    margin-left: 0.6rem;
+    font-size: 2.1rem;
+    margin-bottom: 7.3rem;
+}
+  
+.button {
+    display: inline-block;
+    background: #8F00FF;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 18px 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+  
+.button:hover {
+    background: #741BBA
+}
+
+/* <new-offers> */
+
+.new-offers {
+    /* width: 100%; */
+    margin-bottom: 12.7rem;
+}
+
+.new-offers__list{
+    display: flex ;
+    
+}
+
+.new-offers__content {
+    /* width: calc(100% / 3); */
+}
+
+.new-offer__item{
+    width: 100%;
+    margin-right: 2.7rem;
+}
+
+.new-offer__item:last-child{
+    margin-right: 0;
+}
+
+.new-offers__main-title {
+    display: inline-block;
+    font-size: 3.6rem;
+    font-weight: bold;
+    margin-bottom: 5.1rem;
+    margin-left: 0.3rem;
+    position: relative;
+    padding-right: 5rem;
+}
+
+.new-offers__main-title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 42px;
+    height: 42px;
+    background-image: url(./img/new.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translateY(-50%);
+}
+
+.new-offer {
+    margin-right: 2.7rem;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.new-offer__header {
+    position: relative;
+    padding-top: 40%;
+}
+
+.new-offer__header--left{
+    background: none;
+}
+
+.new-offer__header--middle{
+    background: #010101;
+}
+
+.new-offer__header--right{
+    background: #150A18;
+}
+
+.new-offer__pic {
+    display: block;
+    width: 100%;
+    height: 144px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.new-offer__content {
+    background: #fff;
+    color: #000;
+}
+
+.new-offer__title {
+    padding-top: 3.3rem;
+    padding-left: 2.2rem;
+    padding-bottom: 2.1rem;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+.new-offer__features{
+    display: flex;
+    margin-bottom: 2.35rem;
+}
+
+.feature__details {
+    position: relative;
+    margin-left: 5.5rem;
+    color: #666666;
+}
+
+.feature__icon {
+    position: absolute;
+    left: -3.5rem;
+}
+
+.new-offer__text-block  {
+    margin-left: 2.2rem;
+    margin-right: 1.6rem;
+    padding-bottom: 2.45rem;
+}
+
+.new-offer__text {
+    font-size: 1.4rem;
+    color: #303030;
+    align-items: center;
+}
+
+.button--light {
+    margin-right: 0;
+    margin-bottom: 2.6rem;
+    margin-left: 2.4rem;
+    background: #fff;
+    color: #8F00FF;
+    border: inset #8F00FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px 26px;
+}
+
+.button--new-offer-middle {
+    margin-right: 0;
+    margin-bottom: 2.6rem;
+    margin-left: 24px;
+    padding: 18px 28px;
+  }
+
+/* .button--new-offer-middle:hover {
+    background: #fff !important;
+    border: inset #8F00FF !important;
+    box-sizing: border-box !important;
+    border-radius: 5px !important;
+} */
+
+/* .past-games */
+
+.past-games__title {
+    font-size: 3.6rem;
+    font-weight: bold;
+    padding-left: 1.6rem;
+    margin-bottom: 4.6rem;
+}
+
+.past-games__content{
+    position: relative;
+}
+
+.past-games__list {
+    display:flex;
+    margin-bottom: 7.4rem;
+}
+
+.past-game__item{
+    width: calc(100% /2);
+    margin-right: 2.5rem;
+}
+
+.past-game--item-bkg-pic{
+    background-image: url("./img/pg-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+
+.past-game--item-bkg-pic-two{
+    background-image: url("./img/pg-2.jpg");
+}
+
+.past-game__date {
+    display: inline-block;
+    padding-top: 25.8rem;
+    padding-left: 4.5rem;
+    padding-right: 20rem;
+    margin-bottom: 1.2rem;
+}
+
+.past-game__title {
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding-left: 4.5rem;
+    margin-bottom: 0.1rem;
+}
+
+.past-game__details-info {
+    padding-left: 4.5rem;
+    padding-bottom: 1.7rem;
+}
+
+/* pagination */
+
+.pagination {
+    display: inline-flex;
+    margin-left: 25em;
+}
+
+.pagination__info  {
+    margin-right: 2.5em;
+    font-size: ;
+}
+
+.pagination__item, .pagination__list {
+    margin-right: 2.4rem;
+    display: inline-block;
+}
+
+.pagination__item{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pagination__link{
+    display: block;
+    width: 3.2rem;
+    height: 3.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.pagination__link:hover {
+    
+}
