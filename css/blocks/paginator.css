@@ -1,0 +1,41 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination__info  {
+    margin-right: 2.5em;
+    /* font-size: ; */
+}
+
+.pagination__list{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.pagination__item, .pagination__list {
+    margin-right: 2.4rem;
+    /* display: inline-block; */
+}
+
+.pagination__item{
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+    text-align: center;
+}
+
+.pagination__link{
+    /* display: block; */
+    /* width: 3.2rem; */
+    /* height: 3.2rem; */
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.pagination__link:hover {
+    
+}
