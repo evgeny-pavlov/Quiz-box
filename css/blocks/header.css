@@ -1,0 +1,129 @@
+.header  {
+    min-height: 8rem;
+    padding-top: 3rem;
+    margin-bottom: 11rem;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo-pic {}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    font-size: 3.6rem;
+    font-weight: bold;
+    line-height: 4.9rem;
+    background: linear-gradient(87.62deg, #8F00FF -2.44%, #00A3FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: transparent; */
+}
+
+header .menu{}
+
+.menu__item {
+    vertical-align: middle;
+    margin-right: 6.5rem;
+  }
+  
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link:hover {
+    transition: 0.2s;
+    color: #8F00FF;
+    cursor: pointer;
+}
+
+header .contacts{
+    display: block;
+    text-align: end;
+}
+
+.contacts__phone {
+    display: block;
+    font-size: 2.6rem;
+    font-style: normal;
+    margin-bottom: -1rem;
+  }
+
+/* .contacts__dropdown-title {
+    font-size: 1.3rem;
+    font-style: normal; 
+    text-decoration: underline;
+    text-align: right;
+    cursor: pointer;
+} */
+
+
+/* dropdown menu */
+
+.dropdown__wrap {
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+.dropdown__wrap:hover .dropdown__menu {
+    right: 0;
+    opacity: 1;
+}
+
+.contacts__text{
+font-size: 1.3rem;
+line-height: 2rem;
+font-style: normal;
+font-weight: normal;
+text-decoration: underline;
+}
+
+.dropdown__menu {
+    position: absolute;
+    background-color: #EDEDED;
+    line-height: 1.6;
+    font-size: 1.3rem;
+    text-align: start;
+    min-width: 16rem;
+    height: 6.6rem;
+    padding: 1.4rem 1.9rem;
+    border-radius: 0.5rem;
+    top: 100%;
+    margin-top: 0.7rem;
+    color: #1E1F20;
+    right: -9999px;
+    opacity: 0;
+    transition:  opacity .3s;    
+}
+.dropdown__menu::before {
+    content: "";
+    display: block;
+    position: absolute;
+    border: 1.3rem solid transparent;
+    width: 0;
+    height: 0;
+    border-bottom-color: #EDEDED;
+    top: 100%;
+    margin-top: -89px;
+    margin-left: 77px;
+    
+}
+.dropdown__menu::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 15.9rem;
+    height: 1.5rem;
+    border-bottom-color: #EDEDED;
+    top: 100%;
+    margin-top: -7.9rem;
+    margin-left: -1.8rem;
+    
+}
+.dropdown__item--text-bold {
+    font-weight: bold;
+}

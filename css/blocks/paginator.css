@@ -1,0 +1,60 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.pagination__info  {
+    margin-right: 1.8em;
+    /* font-size: ; */
+}
+
+.pagination__list{
+    display: flex;
+    align-items: center;
+}
+
+.pagination__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 3.2rem;
+    min-height: 3.2rem;
+    margin-right: 0.2rem;
+    border-radius: 1.5rem;
+    font-weight: bold;
+}
+
+.pagination__item:last-child{
+    margin-right: 0;
+}
+
+.pagination__item:hover {
+    min-height: 3.2rem;
+    min-width: 3.2rem;
+    background: #8F00FF;
+    color: #FFF;
+}
+
+.paginator__item--active{
+    min-height: 3.2rem;
+    min-width: 3.2rem;
+    background: #8F00FF;
+    color: #FFF;
+}
+
+.pagination__link{
+    /* min-width: 3.2rem; */
+    /* min-height: 3.2rem; */
+    border-radius: 1.5rem;
+}
+
+/* Paginator games page */
+
+.pagination--games {
+    color: #000;
+    background: #FFF;
+    padding-bottom: 8.4rem;
+}

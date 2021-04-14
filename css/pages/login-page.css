@@ -1,0 +1,23 @@
+.login-page-bkg {
+    background: url(../../img/bkg-1.jpg) center center no-repeat;
+    mix-blend-mode: luminosity;
+    box-shadow: inset 0px -46px 50px #17191C;
+    min-width: 1920px;
+    min-height: 960px;
+}
+
+.login-page--logo-box{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.login-page--logo-box .logo {
+    margin-top: 18%;
+}
+
+.join-btn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
