@@ -33,8 +33,13 @@
     color: #9A9A9A;
 }
 
-.breadcrumbs__item:last-child::after {
+.breadcrumbs__item:last-child:after {
     display: none;
+    font-weight: bold;
+}
+
+.breadcrumbs__item:last-child {
+    font-weight: bold;
 }
 
 .breadcrumbs__link{

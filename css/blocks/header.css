@@ -1,7 +1,7 @@
 .header  {
     min-height: 8rem;
-    padding-top: 3rem;
-    margin-bottom: 11rem;
+    padding-top: 2rem;
+    margin-bottom: 12.7rem;
 }
 
 .header__content {
@@ -22,13 +22,16 @@ header .logo{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     /* color: transparent; */
+    margin-left: 1rem;
 }
 
-header .menu{}
+header .menu{
+    margin-left: 5rem;
+}
 
 .menu__item {
     vertical-align: middle;
-    margin-right: 6.5rem;
+    margin-right: 6.8rem;
   }
   
 .menu__item:last-child {
@@ -44,6 +47,7 @@ header .menu{}
 header .contacts{
     display: block;
     text-align: end;
+    padding-top: 0.5rem;
 }
 
 .contacts__phone {
@@ -75,11 +79,11 @@ header .contacts{
 }
 
 .contacts__text{
-font-size: 1.3rem;
-line-height: 2rem;
-font-style: normal;
-font-weight: normal;
-text-decoration: underline;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
 }
 
 .dropdown__menu {

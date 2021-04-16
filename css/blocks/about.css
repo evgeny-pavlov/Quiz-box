@@ -2,7 +2,7 @@
     display: flex;
     justify-content: flex-end;
     margin-bottom: 5.3rem;
-    padding-top: 25rem;
+    /* padding-top: 25rem; */
 }
 
 .about__team-pic {
@@ -10,7 +10,7 @@
     max-height: 50.5rem;
     position: absolute;
     left: 38.5rem;
-    top: 241.5rem;
+    top: 217.5rem;
     border-radius: 5px;
     z-index: 1;
 }
@@ -48,6 +48,10 @@
     margin-bottom: 4.3rem;
     /* margin-left: auto; */
     
+}
+
+.about__content .button{
+    border: 1px solid #FFF;
 }
 
 .about__container{

@@ -27,6 +27,7 @@
     height: 33.3rem;
     border-radius: 5px;
     margin-right: 5.6rem;
+    object-fit: contain;
 }
 
 .game__title  h3{
@@ -53,6 +54,7 @@
 }
 
 .game__content .button--light{
+    padding: 16px 36px;
     margin-left: 0;
     margin-bottom: 0;
 }

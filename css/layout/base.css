@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font:400 1.6rem/1.42 'Lato', Helvetica, sans-serif;
+    font:400 1.6rem/1.42 'Open Sans', Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background: #17191C;
@@ -86,5 +86,27 @@ button {
     background-color: #17191C;
     background-size: contain;
 }
+
+/* .bkg-main-page-top{
+    display: block;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: url('../../img/bkg-1.jpg') center top no-repeat;
+    background-blend-mode: luminosity;
+    box-shadow: inset 0px -110px 80px #17191C;
+    background-color: #17191C;
+    background-size: contain;
+}
+
+.bkg-main-page-bottom {
+    display: block;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: url('../../img/bkg-2.jpg') center bottom no-repeat;
+    background-blend-mode: luminosity;
+    box-shadow: inset 0px -110px 80px #17191C;
+    background-color: #17191C;
+    background-size: contain;
+} */
 
 

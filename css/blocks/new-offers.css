@@ -8,7 +8,7 @@
     font-size: 3.6rem;
     font-weight: bold;
     margin-bottom: 5.1rem;
-    margin-left: 0.3rem;
+    margin-left: 0.9rem;
     position: relative;
     padding-right: 5rem;
 }
@@ -41,7 +41,7 @@
 }
 
 .new-offer__item:last-child{
-    margin-right: 0;
+    /* margin-right: 0; */
 }
 
 .new-offer {
@@ -120,7 +120,7 @@
 
 .button--light {
     margin-right: 0;
-    margin-bottom: 2.6rem;
+    margin-bottom: 3.5rem;
     margin-left: 2.4rem;
     background: #fff;
     color: #8F00FF;
@@ -132,9 +132,10 @@
 
 .button--new-offer-middle {
     margin-right: 0;
-    margin-bottom: 2.6rem;
+    margin-bottom: 3.5rem;
     margin-left: 24px;
-    padding: 18px 28px;
+    padding: 18px 30px;
+    border-radius: 5px;
   }
 
 /* .button--new-offer-middle:hover {

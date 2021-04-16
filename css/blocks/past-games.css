@@ -6,8 +6,8 @@
     font-size: 3.6rem;
     font-weight: bold;
     line-height: 4.9rem;
-    padding-left: 1.6rem;
-    margin-bottom: 4.6rem;
+    /* padding-left: 1.6rem; */
+    margin-bottom: 5rem;
 
 }
 
@@ -17,7 +17,7 @@
 
 .past-games__list {
     display:flex;
-    margin-bottom: 7.4rem;
+    margin-bottom: 5.3rem;
 }
 
 .past-game__item{
