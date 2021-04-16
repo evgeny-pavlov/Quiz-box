@@ -1,0 +1,94 @@
+.reviews {
+    background: #FFF;
+    color: #000;
+}
+
+.reviews_list{
+    /* flex-direction: column; */
+    /* column-count: 2; */
+    /* column-gap: 3rem; */
+    /* padding-top: 9.8rem;
+    padding-bottom: 7.1rem; */
+    
+}
+
+.review__item{
+    /* display: inline-block; */
+    /* flex-direction: column; */
+    width: 52.9rem;
+    min-height: 54.2rem;
+    margin-right: 2.7rem;
+    margin-bottom: 1.7rem;
+    background: #F4F5F5;
+    border-radius: 5px;
+}
+
+.review__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.7rem;
+}
+
+.reviewer__avatar {
+    width: 14.2rem;
+    height: 14.2rem;
+    margin-right: 2.2rem;
+}
+
+
+.reviewer__name a{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 4.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.reviewer__name:hover{
+    text-decoration: underline;
+    color: #2E77A4;
+}
+
+.reviewed__game{
+    display: inline-flex;
+    background: #B9EAE4;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    padding: 1rem 2rem;
+    border-radius: 3.5rem;
+
+}
+
+.review__title h3{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4.2rem;
+    margin-bottom: 1.3rem;
+}
+
+.review__text{
+    display: flex;
+    margin-bottom: auto;
+}
+
+.review__text p{
+    max-width: 47rem; /* 49.5rem */
+    align-items: center;
+    color: #818181;
+    line-height: 2.7rem;
+
+    /* динамический марджин от высоты контента */
+   
+    /* не работает */
+}
+
+.review__date{
+    display: flex;
+}
+
+.review__date p{
+    margin-bottom: 3.2rem;
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+    font-weight: bold;
+}
